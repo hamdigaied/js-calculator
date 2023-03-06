@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h1 {
+    color: #fff;
+}
+
+#message {
+    color: #fff;
+    margin: 1rem 0;
+    font-size: x-large;
+}
+
+.flex {
+    display: flex;
+    justify-content: center
+}
+
+.element {
+    margin: 5px;
+    width: 20px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #fd9200;
+}
+
+.element:hover {
+    cursor: pointer;
+}
